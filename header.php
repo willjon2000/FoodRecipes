@@ -8,7 +8,6 @@ and open the template in the editor.
     <head>
         <?php
             include 'navbarHtml.php';
-            include 'topBackground.php';
         ?>
         <meta charset="UTF-8">
         

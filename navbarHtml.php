@@ -12,15 +12,16 @@ and open the template in the editor.
     <body>
         <!-- Navigation -->
         
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
             <div class="contianer-fluid">
+                
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarNav" aria-controls="navbarNav" 
-                aria-expanded="false" aria-label="Toggle navigation">
+                data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-               <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
+                
+               <div class="collapse navbar-collapse" id="navbarResponsive ">
+                    <ul class="navbar-nav">
                         <li class="nav-item active">
                             <a class="nav-link" href="index.php">Forside</a>
                         </li>
