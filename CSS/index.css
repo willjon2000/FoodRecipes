@@ -1,0 +1,25 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+}
+
+.centerContainer{
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 0%;
+    bottom: 0%;
+    background-color: red;
+}
+
+.header{
+    top: 8%;
+    width: 100%;
+    table-layout:auto;
+    position: absolute;
+}
+
+.recipeLogo{
+    width: 2vw;
+}
