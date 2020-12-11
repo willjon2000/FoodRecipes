@@ -13,23 +13,27 @@ and open the template in the editor.
         <!-- Navigation -->
         
         <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-            <div class="contianer-fluid">
-                
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="Billeder/best-recipes-logo-with-yellow-pan.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarResponsive">
+                data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                 aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 
-               <div class="collapse navbar-collapse" id="navbarResponsive ">
-                    <ul class="navbar-nav">
+               <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="index.php">Forside</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">opskrifer</a>
+                            <a class="nav-link" href="#">Udvalg</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"></a>
+                            <a class="nav-link" href="#">Neme aftenmads opskrifter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gode kager opskrifter</a>
                         </li>
                     </ul>
                 </div>
