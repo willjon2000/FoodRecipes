@@ -6,7 +6,9 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        
+        <?php
+            include 'navbarHtml.php';
+        ?>
         <meta charset="UTF-8">
         
         <title></title>
@@ -15,9 +17,7 @@ and open the template in the editor.
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="CSS/navbarStl.css>
-        <?php
-            include 'navbarHtml.php';
-        ?>
+        
     </head>
     <body>
         

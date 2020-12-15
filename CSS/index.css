@@ -6,10 +6,18 @@ html, body{
     font-family: 'Poppins', sans-serif;
     color: #222;
 }
+
 .carousel-inner img{
-    max-width: 100%;
-    max-height: 100%;
-    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.carousel-captions{
+    position: absolute;
+    top: 50%;
+    color: #0080FF;
+    transform: translateX(65%);
 }
 
 .header{
