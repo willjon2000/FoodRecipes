@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <?php 
-            include 'header.php';
+            include 'navbar.php';
         ?>
         <meta charset="UTF-8">
         <title></title>
@@ -24,7 +24,7 @@ and open the template in the editor.
                 <div class="carousel-item active">
                     <img src="Billeder/carousel3.png">
                     <div class="carousel-captions">
-                        <h3 class="display-3">Forretter opskrifter</h3>
+                        <h3 class="display-4">Forretter opskrifter</h3>
                         <button onclick="location.href='startersRecipes.php'"
                             type="button" class="btn btn-outline-light btn-lg">Opskrifterne
                         </button>
@@ -33,7 +33,7 @@ and open the template in the editor.
                 <div class="carousel-item">
                     <img src="Billeder/carousel2.png">
                     <div class="carousel-captions">
-                        <h3 class="display-3">Aftensmads opskrifter</h3>
+                        <h3 class="display-4">Aftensmads opskrifter</h3>
                         <button onclick="location.href='dinnerRecipes.php'"
                             type="button" class="btn btn-outline-light btn-lg">Opskrifterne
                         </button>
@@ -42,7 +42,7 @@ and open the template in the editor.
                 <div class="carousel-item">
                     <img src="Billeder/carousel1.png">
                     <div class="carousel-captions">
-                        <h3 class="display-3">Dessert/kage opskrifter</h3>
+                        <h3 class="display-4">Dessert/kage opskrifter</h3>
                         <button onclick="location.href='dessertRecipes.php'"
                             type="button" class="btn btn-outline-light btn-lg">Opskrifterne
                         </button>

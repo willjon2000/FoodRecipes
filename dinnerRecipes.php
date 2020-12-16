@@ -3,7 +3,7 @@
 <html>
     <head>
         <?php 
-            include 'header.php';
+            include 'navbar.php';
         ?>
         <meta charset="UTF-8">
         <title></title>
