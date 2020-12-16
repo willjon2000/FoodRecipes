@@ -25,29 +25,34 @@ and open the template in the editor.
                     <img src="Billeder/carousel3.png">
                     <div class="carousel-captions">
                         <h3 class="display-3">Forretter opskrifter</h3>
-                        <button type="button" class="btn btn-outline-light btn-lg">Klik her</button>
+                        <button onclick="location.href='startersRecipes.php'"
+                            type="button" class="btn btn-outline-light btn-lg">Opskrifterne
+                        </button>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="Billeder/carousel2.png">
                     <div class="carousel-captions">
-                        <h3 class="display-3">Hovedretter opskrifter</h3>
-                        <button type="button" class="btn btn-outline-light btn-lg">Klik her</button>
+                        <h3 class="display-3">Aftensmads opskrifter</h3>
+                        <button onclick="location.href='dinnerRecipes.php'"
+                            type="button" class="btn btn-outline-light btn-lg">Opskrifterne
+                        </button>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="Billeder/carousel1.png">
                     <div class="carousel-captions">
                         <h3 class="display-3">Dessert/kage opskrifter</h3>
-                        <button type="button" class="btn btn-outline-light btn-lg">Klik her</button>
+                        <button onclick="location.href='dessertRecipes.php'"
+                            type="button" class="btn btn-outline-light btn-lg">Opskrifterne
+                        </button>
                     </div>
                 </div>
             </div>
-                
-            </div>
-                
         </div>
-        <?php
-        ?>
+        
+        <div class="">
+            
+        </div>
     </body>
 </html>
