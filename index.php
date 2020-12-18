@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <?php 
-            include 'navbar.php';
+            include 'navbar/navbar.php';
         ?>
         <meta charset="UTF-8">
         <title></title>
@@ -51,8 +51,18 @@ and open the template in the editor.
             </div>
         </div>
         
-        <div class="">
-            
+        <div class="container-fluid">
+            <div class="row jumbotron">
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                    <p class="lead"> Hej og velkommen til denne hjemmeside omkring mad opskrifter.
+                    Jeg håber at opskrifterne kan bruges.</p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                    <a href="selectionOfRecipes.php"><button type="button" class="btn btn-outline-secondary btn-lg">
+                            Udvalg af opskrifter</button>
+                    </a>
+                </div>
+            </div>
         </div>
     </body>
 </html>

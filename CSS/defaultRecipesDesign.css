@@ -1,0 +1,16 @@
+.padding{
+    padding-bottom: 2rem;
+}
+
+.welcome{
+    width: 75%;
+    margin: 0 auto;
+}
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 92%;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+

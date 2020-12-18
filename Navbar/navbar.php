@@ -20,7 +20,7 @@
                     <a class="nav-link" href="index.php">Forside</a>
                 </li>
                 <li id="selection" class="nav-item">
-                    <a class="nav-link" href="#">Udvalg</a>
+                    <a class="nav-link" href="selectionOfRecipes.php">Udvalg</a>
                 </li>
                 <li id="starters" class="nav-item">
                     <a class="nav-link" href="startersRecipes.php">Neme forretter opskrifter</a>
@@ -40,7 +40,6 @@
     
     $(function (){
         const path = window.location.pathname;
-        alert(path);
         switch (path){
             case "/FoodRecipes/index.php":
                 $("#home").attr("class",'nav-item active');
@@ -49,7 +48,7 @@
                 $("#dinner").attr("class",'nav-item');
                 $("#dessert").attr("class",'nav-item');
                 break;
-            case "/FoodRecipes/index.php#":
+            case "/FoodRecipes/selectionOfRecipes.php":
                 $("#home").attr("class",'nav-item');
                 $("#selection").attr("class",'nav-item active');
                 $("#starters").attr("class",'nav-item');
